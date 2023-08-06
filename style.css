@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(21, 21, 21);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(214, 214, 214);
+}
+
+a {
+    color: inherit;
+}
+
+.recipelist {
+    background-color: rgb(37, 37, 37);
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.home-redirect,.recipelist{
+    color: lightcoral;
+    font-weight: bold;
+}
+
+.description-para,.ingredients-list,.steps-list {
+    font-size: 24px;
+    color: rgb(183, 183, 183);
+}
+
+.ingredients-list,.steps-list {
+    line-height: 50px;
+    background-color: rgb(37, 37, 37);
+}
+
+img {
+    border-radius: 20px;
+    height: 300px;
+    width: auto;
+}

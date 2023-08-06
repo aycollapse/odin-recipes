@@ -3,4 +3,6 @@ This is the first HTML assignment of The Odin Project
 
 The final result should be a demonstration of all the notions I learned until now.
 
-Live View: https://aycollapse.github.io/odin-recipes/
+Live Preview: https://aycollapse.github.io/odin-recipes/
+
+The page will be further updated with the new stuff I learn.
