@@ -1,20 +1,19 @@
 body {
     background-color: rgb(21, 21, 21);
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-top: 50px;
-    margin-bottom: 150px;
+    width: 45em;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 h1 {
-    font-size: 72px;
+    font-size: 3rem;
     font-weight: bold;
     color: white;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 1.5rem;
     color: rgb(214, 214, 214);
 }
 
@@ -22,10 +21,11 @@ a {
     color: inherit;
 }
 
+/* Homepage */
 .recipelist {
     background-color: rgb(37, 37, 37);
-    font-size: 25px;
-    line-height: 40px;
+    font-size: 1.5rem;
+    line-height: 2.5em;
 }
 
 .home-redirect,.recipelist{
@@ -33,18 +33,33 @@ a {
     font-weight: bold;
 }
 
+/* Recipe Description */
+.description-para{
+    line-height: 1.5em;
+}
+
 .description-para,.ingredients-list,.steps-list {
     font-size: 24px;
-    color: rgb(183, 183, 183);
+    color: rgb(183, 183, 183);  
+    text-align: justify;
+    text-justify:auto;
+}
+
+.ingredients-list {
+    text-align: left;
+    word-wrap: break-word;
 }
 
 .ingredients-list,.steps-list {
-    line-height: 50px;
+    line-height: 2.5em;
     background-color: rgb(37, 37, 37);
+    padding: 1em 1em 1em 2em;
+    
 }
 
 img {
     border-radius: 20px;
-    height: 300px;
+    max-height: 400px;
     width: auto;
+    max-width: 100%;
 }
